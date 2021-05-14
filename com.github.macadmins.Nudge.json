@@ -27,7 +27,7 @@
       ],
       "majorUpgradeAppPath": "/Applications/Install macOS Big Sur.app",
       "requiredInstallationDate": "2021-02-28T00:00:00Z",
-      "requiredMinimumOSVersion": "11.3.2",
+      "requiredMinimumOSVersion": "11.99.0",
       "targetedOSVersions": [
         "11.0",
         "11.0.1",
@@ -37,13 +37,13 @@
         "11.2.2",
         "11.2.3",
         "11.3",
-        "11.3.1",
+        "11.3.1"
       ]
     }
   ],
   "userExperience": {
     "allowedDeferrals": 1000000,
-    "allowedDeferralsUntilForcedSecondaryQuitButton": 30,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
     "approachingRefreshCycle": 6000,
     "approachingWindowTime": 72,
     "elapsedRefreshCycle": 300,
@@ -57,12 +57,12 @@
   },
   "userInterface": {
     "fallbackLanguage": "en",
-    "forceFallbackLanguage": true,
+    "forceFallbackLanguage": false,
     "forceScreenShotIcon": false,
-    "iconDarkPath": "/Library/Application Support/JAMF/Composer/Sources/Nudge_LaunchAgent-1.0.0/ROOT/usr/local/nudge",
-    "iconLightPath": "/Library/Application Support/JAMF/Composer/Sources/Nudge_LaunchAgent-1.0.0/ROOT/usr/local/nudge",
-    "screenShotDarkPath":,
-    "screenShotLightPath":,
+    "iconDarkPath": "/somewhere/logoDark.png",
+    "iconLightPath": "/somewhere/logoLight.png",
+    "screenShotDarkPath": "/somewhere/screenShotDark.png",
+    "screenShotLightPath": "/somewhere/screenShotLight.png",
     "simpleMode": false,
     "singleQuitButton": false,
     "updateElements": [
@@ -77,7 +77,7 @@
         "mainHeader": "Your device requires a security update",
         "primaryQuitButtonText": "Later",
         "secondaryQuitButtonText": "I understand",
-        "subHeader": "A friendly reminder from TigerConnect IT"
+        "subHeader": "A friendly reminder from your local IT team"
       },
       {
         "_language": "es",
